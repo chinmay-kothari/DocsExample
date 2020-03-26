@@ -1,5 +1,5 @@
 /**
-*This class contains a list of funny jokes that can be added and getted/
+*MY NAME IS CHINMAY KOTHARI
 */
 
 class JokeMachine {
