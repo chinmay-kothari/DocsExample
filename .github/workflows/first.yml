@@ -18,7 +18,7 @@ jobs:
           source_dir: ./src
           output_dir: ./out
           config_file: conf.json
-          template_name: jsdoc
+          template_name: minami
           front_page: README.md
 
       - name: Deploy
