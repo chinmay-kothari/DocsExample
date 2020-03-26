@@ -2,7 +2,7 @@
 *MY NAME IS CHINMAY KOTHARI
 */
 
-class Chinmay {
+class Class_2 {
   constructor() {
     this.jokes = []
   }
@@ -13,14 +13,14 @@ class Chinmay {
   *@return {string} A random joke
   */
 
-  getRandomJoke(){
+  function1(){
     return this.jokes[Math.floor(Math.random() * this.jokes.length)]
   }
   /**
   *Print on the console a random joke. I hope it is funny!
   */
 
-  sayRandomJoke(){
+  fucntion2(){
     console.log(this.getRandomJoke)
   }
   /**
@@ -28,7 +28,7 @@ class Chinmay {
   *
   *@param {string} joke A funny joke
   */
-  addJoke(joke){
+  fucntion3(joke){
     this.jokes.push(joke)
   }
 }
