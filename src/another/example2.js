@@ -2,7 +2,7 @@
 *MY NAME IS CHINMAY KOTHARI
 */
 
-class JokeMachine {
+class Chinmay {
   constructor() {
     this.jokes = []
   }
