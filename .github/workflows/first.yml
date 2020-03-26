@@ -18,6 +18,7 @@ jobs:
           source_dir: ./src
           output_dir: ./out
           config_file: config.json
+          template_name: false
           front_page: README.md
 
       - name: Deploy
