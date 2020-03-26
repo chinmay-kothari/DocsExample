@@ -8,12 +8,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Build
-        uses: andstor/jsdoc-action@v1
+    steps:  
+      - name: JSDoc Action
+        uses: andstor/jsdoc-action@v1.1.0
         with:
           source_dir: ./src
           output_dir: ./out
