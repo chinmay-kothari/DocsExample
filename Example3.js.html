@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>New_Example.js - Documentation</title>
+    <title>Example3.js - Documentation</title>
 
     <script src="scripts/prettify/prettify.js"></script>
     <script src="scripts/prettify/lang-css.js"></script>
@@ -29,7 +29,7 @@
 
 <div id="main">
     
-    <h1 class="page-title">New_Example.js</h1>
+    <h1 class="page-title">Example3.js</h1>
     
 
     
@@ -40,10 +40,10 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
-*This class contains a list of funny jokes that can be added and getted/
+*Ths is File is again saved in ./src  
 */
 
-class JokeMachine {
+class Class_2 {
   constructor() {
     this.jokes = []
   }
@@ -54,14 +54,14 @@ class JokeMachine {
   *@return {string} A random joke
   */
 
-  getRandomJoke(){
+  FUNCTION_1(){
     return this.jokes[Math.floor(Math.random() * this.jokes.length)]
   }
   /**
   *Print on the console a random joke. I hope it is funny!
   */
 
-  sayRandomJoke(){
+  FUNCTION_2(){
     console.log(this.getRandomJoke)
   }
   /**
@@ -69,7 +69,8 @@ class JokeMachine {
   *
   *@param {string} joke A funny joke
   */
-  addJoke(joke){
+  
+  FUNCTION_3(joke){
     this.jokes.push(joke)
   }
 }
