@@ -20,7 +20,7 @@ class Class_2 {
   *Print on the console a random joke. I hope it is funny!
   */
 
-  fucntion2(){
+  function2(){
     console.log(this.getRandomJoke)
   }
   /**
@@ -28,7 +28,7 @@ class Class_2 {
   *
   *@param {string} joke A funny joke
   */
-  fucntion3(joke){
+  function3(joke){
     this.jokes.push(joke)
   }
 }
