@@ -2,7 +2,7 @@
 *Ths is File is again saved in ./src  
 */
 
-class Class_2 {
+class Class_3 {
   constructor() {
     this.jokes = []
   }
