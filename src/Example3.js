@@ -13,14 +13,14 @@ class Class_3 {
   *@return {string} A random joke
   */
 
-  FUNCTION_1(){
+  Function_A(){
     return this.jokes[Math.floor(Math.random() * this.jokes.length)]
   }
   /**
   *Print on the console a random joke. I hope it is funny!
   */
 
-  FUNCTION_2(){
+  Function_B(){
     console.log(this.getRandomJoke)
   }
   /**
@@ -29,7 +29,7 @@ class Class_3 {
   *@param {string} joke A funny joke
   */
   
-  FUNCTION_3(joke){
+  Function_C(joke){
     this.jokes.push(joke)
   }
 }
