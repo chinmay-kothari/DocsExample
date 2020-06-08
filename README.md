@@ -1,2 +1,2 @@
 # Bookbrainz Documentation
-Example of generated github page 
+Example of generated JSDoc github page 
