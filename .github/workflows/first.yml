@@ -19,7 +19,7 @@ jobs:
           recurse: true
           output_dir: ./out
           config_file: conf.json
-          template_name: minami
+          template_name: DocStrap
           front_page: README.md
 
       - name: Deploy
